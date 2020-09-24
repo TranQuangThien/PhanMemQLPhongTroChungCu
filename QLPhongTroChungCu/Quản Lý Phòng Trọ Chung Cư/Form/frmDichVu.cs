@@ -22,13 +22,15 @@ namespace Quản_Lý_Phòng_Trọ_Chung_Cư
         //Khai báo biến
         string text;
         DichVuCtrl dvctrl = new DichVuCtrl();
+        LoaiDichVuCtrl loaidvctrl = new LoaiDichVuCtrl();
         //Gắn Dữ liệu
         private void GanDuLieu(DichVu dv)
         {
             dv.Madv = dvctrl.GetID() + 1;
             dv.Tendv = txtTenDV.Text;
             dv.Dongia = Convert.ToInt32(txtDonGia.Text);
-            
+            dv.Maloaidv = cbLoaiDichVu.SelectedValue.ToString();
+
         }
 
         //Hiển thị thông báo
@@ -79,7 +81,7 @@ namespace Quản_Lý_Phòng_Trọ_Chung_Cư
                 txtMaDV.Text = dgvDichVu.CurrentRow.Cells["MaDichVu"].Value.ToString();
                 txtTenDV.Text = dgvDichVu.CurrentRow.Cells["TenDichVu"].Value.ToString();
                 txtDonGia.Text = dgvDichVu.CurrentRow.Cells["DonGia"].Value.ToString();
-               
+                cbLoaiDichVu.SelectedValue = dgvDichVu.CurrentRow.Cells["MaLoaiDV"].Value.ToString();
             }
 
         }
@@ -103,13 +105,12 @@ namespace Quản_Lý_Phòng_Trọ_Chung_Cư
         //Chức năng load form
         private void frmDichVu_Load(object sender, EventArgs e)
         {
-            
+            loaidvctrl.HienThiComboBoxLoaiDV(cbLoaiDichVu);
             dvctrl.HienThi(dgvDichVu);
             HienThiThongTin();
             btnThem.Enabled = false;
             btnXoa.Enabled = true;
             btnSua.Enabled = true;
-
         }
 
 
@@ -137,6 +138,7 @@ namespace Quản_Lý_Phòng_Trọ_Chung_Cư
             dv.Madv = Convert.ToInt32(txtMaDV.Text) ;
             dv.Tendv = txtTenDV.Text;
             dv.Dongia = Convert.ToInt32(txtDonGia.Text);
+            dv.Maloaidv = cbLoaiDichVu.SelectedValue.ToString();
 
             string madv = dgvDichVu.CurrentRow.Cells[0].Value.ToString();
 

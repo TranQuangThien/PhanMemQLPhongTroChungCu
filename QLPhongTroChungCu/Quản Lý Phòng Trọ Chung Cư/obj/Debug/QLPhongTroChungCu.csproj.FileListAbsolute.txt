@@ -14,3 +14,20 @@ C:\Users\tranq\Desktop\Quản Lý Phòng Trọ Chung Cư\QLPhongTroChungCu\Quả
 C:\Users\tranq\Desktop\Quản Lý Phòng Trọ Chung Cư\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\Quản_Lý_Phòng_Trọ_Chung_Cư.QLKhachHang.resources
 C:\Users\tranq\Desktop\Quản Lý Phòng Trọ Chung Cư\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\Quản_Lý_Phòng_Trọ_Chung_Cư.frmQLKhuVuc.resources
 C:\Users\tranq\Desktop\Quản Lý Phòng Trọ Chung Cư\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\Quản_Lý_Phòng_Trọ_Chung_Cư.frmDichVu.resources
+C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\bin\Debug\Quản Lý Phòng Trọ Chung Cư.exe.config
+C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\bin\Debug\Quản Lý Phòng Trọ Chung Cư.exe
+C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\bin\Debug\Quản Lý Phòng Trọ Chung Cư.pdb
+C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\QLPhongTroChungCu.csprojAssemblyReference.cache
+C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\Quản_Lý_Phòng_Trọ_Chung_Cư.frmDangNhap.resources
+C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\Quản_Lý_Phòng_Trọ_Chung_Cư.frmKiemTraTaiKhoan.resources
+C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\Quản_Lý_Phòng_Trọ_Chung_Cư.frmDoiMatKhau.resources
+C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\Quản_Lý_Phòng_Trọ_Chung_Cư.frmQLKhuVuc.resources
+C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\Quản_Lý_Phòng_Trọ_Chung_Cư.frmQLTaiKhoan.resources
+C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\Quản_Lý_Phòng_Trọ_Chung_Cư.frmDichVu.resources
+C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\Quản_Lý_Phòng_Trọ_Chung_Cư.Properties.Resources.resources
+C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\Quản_Lý_Phòng_Trọ_Chung_Cư.QLKhachHang.resources
+C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\QLPhongTroChungCu.csproj.GenerateResource.cache
+C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\QLPhongTroChungCu.csproj.CoreCompileInputs.cache
+C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\Quản Lý Phòng Trọ Chung Cư.exe
+C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\Quản Lý Phòng Trọ Chung Cư.pdb
+C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\Quản_Lý_Phòng_Trọ_Chung_Cư.frmChiTietThueTro.resources

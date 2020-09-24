@@ -16,7 +16,7 @@ namespace Quản_Lý_Phòng_Trọ_Chung_Cư
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmDichVu());
+            Application.Run(new frmChiTietThueTro());
         }
     }
 }

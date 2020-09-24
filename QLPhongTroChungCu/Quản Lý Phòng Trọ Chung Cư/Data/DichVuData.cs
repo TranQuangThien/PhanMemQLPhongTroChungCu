@@ -56,11 +56,12 @@ namespace Quản_Lý_Phòng_Trọ_Chung_Cư.Data
         public int Them(DichVu dv)
         {
             SqlCommand cmd = new SqlCommand();
-            cmd.CommandText = "insert into DichVu(MaDichVu, TenDichVu, DonGia )values(@madv,@tendv,@dongia)";
+            cmd.CommandText = "insert into DichVu(MaDichVu, TenDichVu, DonGia, MaLoaiDV )values(@madv,@tendv,@dongia,@maloaidv)";
 
             cmd.Parameters.Add("madv", SqlDbType.Int).Value = dv.Madv;
             cmd.Parameters.Add("tendv", SqlDbType.NVarChar).Value = dv.Tendv;
             cmd.Parameters.Add("dongia", SqlDbType.Int).Value = dv.Dongia;
+            cmd.Parameters.Add("maloaidv", SqlDbType.NChar).Value = dv.Maloaidv;
 
             return cls.CapNhatDL(cmd);
         }
@@ -69,11 +70,12 @@ namespace Quản_Lý_Phòng_Trọ_Chung_Cư.Data
         public int Luu(DichVu dv)
         {
             SqlCommand cmd = new SqlCommand();
-            cmd.CommandText = "update DichVu set TenDichVu=@tendv,DonGia=@dongia where MaDichVu=@madv";
+            cmd.CommandText = "update DichVu set TenDichVu=@tendv,DonGia=@dongia,MaLoaiDV=@maloaidv where MaDichVu=@madv";
             cmd.Parameters.Add("tendv", SqlDbType.NVarChar).Value = dv.Tendv;
             cmd.Parameters.Add("dongia", SqlDbType.Int).Value = dv.Dongia;
             cmd.Parameters.Add("madv", SqlDbType.Int).Value = dv.Madv;
-            
+            cmd.Parameters.Add("maloaidv", SqlDbType.NChar).Value = dv.Maloaidv;
+
             return cls.CapNhatDL(cmd);
         }
 

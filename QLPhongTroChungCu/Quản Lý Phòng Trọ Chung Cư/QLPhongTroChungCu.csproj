@@ -56,11 +56,13 @@
     <Compile Include="Controller\DichVuCtrl.cs" />
     <Compile Include="Controller\KhachHangCtrl.cs" />
     <Compile Include="Controller\KhuVucCtrl.cs" />
+    <Compile Include="Controller\LoaiDichVuCtrl.cs" />
     <Compile Include="Controller\TaiKhoanCtrl.cs" />
     <Compile Include="Controller\TrangThaiCtrl.cs" />
     <Compile Include="Data\DichVuData.cs" />
     <Compile Include="Data\KhachHangData.cs" />
     <Compile Include="Data\KhuVucData.cs" />
+    <Compile Include="Data\LoaiDichVuData.cs" />
     <Compile Include="Data\TaiKhoanData.cs" />
     <Compile Include="Data\TrangThaiData.cs" />
     <Compile Include="Form\frmDangNhap.cs">
@@ -99,11 +101,17 @@
     <Compile Include="Form\frmQLKhuVuc.Designer.cs">
       <DependentUpon>frmQLKhuVuc.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDichVu.cs">
+    <Compile Include="Form\frmDichVu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDichVu.Designer.cs">
+    <Compile Include="Form\frmDichVu.Designer.cs">
       <DependentUpon>frmDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmChiTietThueTro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmChiTietThueTro.Designer.cs">
+      <DependentUpon>frmChiTietThueTro.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -128,8 +136,11 @@
     <EmbeddedResource Include="Form\frmQLTaiKhoan.resx">
       <DependentUpon>frmQLTaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDichVu.resx">
+    <EmbeddedResource Include="Form\frmDichVu.resx">
       <DependentUpon>frmDichVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmChiTietThueTro.resx">
+      <DependentUpon>frmChiTietThueTro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

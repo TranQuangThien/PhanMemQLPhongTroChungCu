@@ -41,6 +41,8 @@
             this.label21 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cbLoaiDichVu = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDichVu)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -112,7 +114,7 @@
             // 
             // txtDonGia
             // 
-            this.txtDonGia.Location = new System.Drawing.Point(104, 100);
+            this.txtDonGia.Location = new System.Drawing.Point(104, 138);
             this.txtDonGia.Name = "txtDonGia";
             this.txtDonGia.Size = new System.Drawing.Size(154, 20);
             this.txtDonGia.TabIndex = 16;
@@ -120,7 +122,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(9, 103);
+            this.label14.Location = new System.Drawing.Point(9, 141);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(57, 13);
             this.label14.TabIndex = 15;
@@ -137,7 +139,7 @@
             // 
             // txtTenDV
             // 
-            this.txtTenDV.Location = new System.Drawing.Point(104, 65);
+            this.txtTenDV.Location = new System.Drawing.Point(104, 103);
             this.txtTenDV.Name = "txtTenDV";
             this.txtTenDV.Size = new System.Drawing.Size(154, 20);
             this.txtTenDV.TabIndex = 3;
@@ -145,7 +147,7 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(9, 68);
+            this.label20.Location = new System.Drawing.Point(9, 106);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(82, 13);
             this.label20.TabIndex = 2;
@@ -170,6 +172,8 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.cbLoaiDichVu);
+            this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.btnLamMoi);
             this.groupBox2.Controls.Add(this.btnXoa);
             this.groupBox2.Controls.Add(this.btnSua);
@@ -197,6 +201,23 @@
             this.label1.Size = new System.Drawing.Size(273, 71);
             this.label1.TabIndex = 27;
             this.label1.Text = "Dịch Vụ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(8, 64);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(77, 13);
+            this.label2.TabIndex = 25;
+            this.label2.Text = "Mã Dịch Vụ:";
+            // 
+            // cbLoaiDichVu
+            // 
+            this.cbLoaiDichVu.FormattingEnabled = true;
+            this.cbLoaiDichVu.Location = new System.Drawing.Point(104, 61);
+            this.cbLoaiDichVu.Name = "cbLoaiDichVu";
+            this.cbLoaiDichVu.Size = new System.Drawing.Size(154, 21);
+            this.cbLoaiDichVu.TabIndex = 26;
             // 
             // frmDichVu
             // 
@@ -232,5 +253,7 @@
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox cbLoaiDichVu;
+        private System.Windows.Forms.Label label2;
     }
 }
