@@ -151,7 +151,7 @@ namespace Quản_Lý_Phòng_Trọ_Chung_Cư
                 TaiKhoan tk = new TaiKhoan();
                 GanDuLieu(tk);
 
-                {
+                
                     switch (tkctrl.Them(tk))
                     {
                         case -1:
@@ -172,7 +172,7 @@ namespace Quản_Lý_Phòng_Trọ_Chung_Cư
                             LamMoi();
                             break;
                     }
-                }
+                
             }
         }
 

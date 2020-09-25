@@ -46,7 +46,7 @@ namespace Quản_Lý_Phòng_Trọ_Chung_Cư.Class
 
         public int GetID(SqlCommand sqlcmd)
         {
-            int id = 1;
+            int id = 0;
             SqlCommand cmd = sqlcmd;
             cmd.Connection = conn;
             SqlDataReader dr = cmd.ExecuteReader();

@@ -31,3 +31,5 @@ C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Ph�
 C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\Quản Lý Phòng Trọ Chung Cư.exe
 C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\Quản Lý Phòng Trọ Chung Cư.pdb
 C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\Quản_Lý_Phòng_Trọ_Chung_Cư.frmChiTietThueTro.resources
+C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\Quản_Lý_Phòng_Trọ_Chung_Cư.frmPhongTro.resources
+C:\Users\tranq\Desktop\PhanMemQLPhongTroChungCu\QLPhongTroChungCu\Quản Lý Phòng Trọ Chung Cư\obj\Debug\Quản_Lý_Phòng_Trọ_Chung_Cư.frmDay.resources

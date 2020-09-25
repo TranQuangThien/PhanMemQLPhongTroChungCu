@@ -15,9 +15,14 @@ namespace Quản_Lý_Phòng_Trọ_Chung_Cư.Controller
 
         KhuVucData khuvuc = new KhuVucData();
 
-        
 
-       
+
+        public void HienThiComboBox(ComboBox cb)
+        {
+            cb.DataSource = khuvuc.LayDSKV().Tables[0];
+            cb.DisplayMember = "TenKhuVuc";
+            cb.ValueMember = "MaKV";
+        }
 
         public KhuVuc DuLieuKV(string makv)
         {

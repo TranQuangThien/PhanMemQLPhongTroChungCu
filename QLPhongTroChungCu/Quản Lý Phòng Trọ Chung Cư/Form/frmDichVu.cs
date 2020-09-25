@@ -95,7 +95,6 @@ namespace Quản_Lý_Phòng_Trọ_Chung_Cư
                 DichVu dv = new DichVu();
                 GanDuLieu(dv);
 
-
                 dvctrl.Them(dv);
                 MessageBox.Show("Thêm thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 LamMoi();
@@ -135,7 +134,7 @@ namespace Quản_Lý_Phòng_Trọ_Chung_Cư
         {
 
             DichVu dv = new DichVu();
-            dv.Madv = Convert.ToInt32(txtMaDV.Text) ;
+            dv.Madv = Convert.ToInt32(txtMaDV.Text);
             dv.Tendv = txtTenDV.Text;
             dv.Dongia = Convert.ToInt32(txtDonGia.Text);
             dv.Maloaidv = cbLoaiDichVu.SelectedValue.ToString();

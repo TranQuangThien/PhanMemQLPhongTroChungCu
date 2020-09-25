@@ -46,25 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BUS\ChiTietThueTro.cs" />
+    <Compile Include="BUS\Day.cs" />
     <Compile Include="BUS\DichVu.cs" />
     <Compile Include="BUS\KhachHang.cs" />
     <Compile Include="BUS\KhuVuc.cs" />
+    <Compile Include="BUS\PhongTro.cs" />
     <Compile Include="BUS\TaiKhoan.cs" />
+    <Compile Include="BUS\Tang.cs" />
     <Compile Include="Class\DataProvider.cs" />
     <Compile Include="Class\Login.cs" />
     <Compile Include="Class\User.cs" />
+    <Compile Include="Controller\DayCtrl.cs" />
     <Compile Include="Controller\DichVuCtrl.cs" />
     <Compile Include="Controller\KhachHangCtrl.cs" />
     <Compile Include="Controller\KhuVucCtrl.cs" />
     <Compile Include="Controller\LoaiDichVuCtrl.cs" />
+    <Compile Include="Controller\PhongTroCtrl.cs" />
     <Compile Include="Controller\TaiKhoanCtrl.cs" />
     <Compile Include="Controller\TrangThaiCtrl.cs" />
+    <Compile Include="Controller\TrangThaiThueCtrl.cs" />
+    <Compile Include="Data\DayData.cs" />
     <Compile Include="Data\DichVuData.cs" />
     <Compile Include="Data\KhachHangData.cs" />
     <Compile Include="Data\KhuVucData.cs" />
     <Compile Include="Data\LoaiDichVuData.cs" />
+    <Compile Include="Data\PhongTroData.cs" />
     <Compile Include="Data\TaiKhoanData.cs" />
     <Compile Include="Data\TrangThaiData.cs" />
+    <Compile Include="Data\TrangThaiThueData.cs" />
     <Compile Include="Form\frmDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +123,18 @@
     <Compile Include="Form\frmChiTietThueTro.Designer.cs">
       <DependentUpon>frmChiTietThueTro.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form\frmPhongTro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmPhongTro.Designer.cs">
+      <DependentUpon>frmPhongTro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmDay.Designer.cs">
+      <DependentUpon>frmDay.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Form\frmQLKhachHang.cs">
@@ -130,6 +152,9 @@
     <EmbeddedResource Include="Form\frmDoiMatKhau.resx">
       <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmPhongTro.resx">
+      <DependentUpon>frmPhongTro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form\frmQLKhuVuc.resx">
       <DependentUpon>frmQLKhuVuc.cs</DependentUpon>
     </EmbeddedResource>
@@ -141,6 +166,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form\frmChiTietThueTro.resx">
       <DependentUpon>frmChiTietThueTro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmDay.resx">
+      <DependentUpon>frmDay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
