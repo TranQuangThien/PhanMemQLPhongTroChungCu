@@ -12,11 +12,11 @@ namespace Quản_Lý_Phòng_Trọ_Chung_Cư
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        static void Main() 
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmDay());
+            Application.Run(new frmDangNhap());
         }
     }
 }

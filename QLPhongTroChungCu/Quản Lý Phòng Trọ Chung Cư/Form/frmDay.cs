@@ -163,5 +163,13 @@ namespace Quản_Lý_Phòng_Trọ_Chung_Cư
                 HienThiThongTin();
             }
         }
+
+        private int SoLuongDay()
+        {
+
+
+
+            return 1;
+        }
     }
 }
